@@ -1,0 +1,28 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-22T09:17:14.250773+00:00",
+  "records": [
+    {
+      "source_id": "S01",
+      "source_filename": "jpa_scholarships.pdf",
+      "source_sha256": "688b587d9eac8e66c40055ebaaa462cc2f2fe05c900c3f64c8907462f43a0e71",
+      "prepared_output": "data/processed/prepared_text.jsonl",
+      "prepared_sha256": "c0b2f6e8fccd6929328c4fb310207f0b6be021a1d46b7f8ed4c7076fee9ec2c7",
+      "processing_note": "paragraph-aware-char-500",
+      "source_version": "2026 Intake (Scraped Nov 2026)",
+      "access_rights": "Public JPA Portal Data",
+      "status": "Prepared; quality review pending"
+    },
+    {
+      "source_id": "S02",
+      "source_filename": "jpa_scholarships.xlsx",
+      "source_sha256": "9b319a14bbad1283852da9dd84ac74f8212812cf4463cde0d8d32726dec4d077",
+      "prepared_output": "data/processed/prepared_table.csv",
+      "prepared_sha256": "ecc90813dac1bfecfcae85acf93afc313731d5a645513dabef87bde1f6fadd4b",
+      "processing_note": "remove_duplicates=True; trim_text=True",
+      "source_version": "2026 Intake (Scraped Nov 2026)",
+      "access_rights": "Public JPA Portal Data",
+      "status": "Prepared; quality review pending"
+    }
+  ]
+}

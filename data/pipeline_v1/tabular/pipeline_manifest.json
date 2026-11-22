@@ -1,0 +1,54 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-22T09:17:24.594708+00:00",
+  "data_type": "tabular",
+  "configuration": {
+    "remove_exact_duplicates": true,
+    "trim_text": true
+  },
+  "processing_method": "remove_exact_duplicates=True; trim_text=True",
+  "sources": [
+    {
+      "path": "/content/week3_project/data/raw/jpa_scholarships.xlsx",
+      "sha256": "9b319a14bbad1283852da9dd84ac74f8212812cf4463cde0d8d32726dec4d077"
+    }
+  ],
+  "outputs": [
+    "/content/week3_project/data/pipeline_v1/tabular/prepared_table.csv"
+  ],
+  "source_output_mapping": [
+    {
+      "source": "/content/week3_project/data/raw/jpa_scholarships.xlsx",
+      "output": "/content/week3_project/data/pipeline_v1/tabular/prepared_table.csv"
+    }
+  ],
+  "inspection": {
+    "rows": 7,
+    "columns": [
+      "programme_code",
+      "programme_name",
+      "category",
+      "bentuk_penajaan",
+      "overview",
+      "syarat_umum",
+      "syarat_khusus",
+      "institusi_pengajian",
+      "bidang_pengajian",
+      "extra_sections",
+      "full_details_for_rag",
+      "source_url"
+    ],
+    "exact_duplicates": 0
+  },
+  "validation": {
+    "output_count": 1,
+    "output_sha256": [
+      "ecc90813dac1bfecfcae85acf93afc313731d5a645513dabef87bde1f6fadd4b"
+    ],
+    "output_bytes": [
+      58340
+    ]
+  },
+  "source_version": "2026 Intake (Scraped Nov 2026)",
+  "access_rights": "Public JPA Portal Data"
+}

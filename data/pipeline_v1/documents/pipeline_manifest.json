@@ -1,0 +1,41 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-22T09:17:24.560928+00:00",
+  "data_type": "documents",
+  "configuration": {
+    "chunk_size": 500,
+    "method": "paragraph-aware"
+  },
+  "processing_method": "paragraph-aware text chunks of 500 characters",
+  "sources": [
+    {
+      "path": "/content/week3_project/data/raw/jpa_scholarships.pdf",
+      "sha256": "688b587d9eac8e66c40055ebaaa462cc2f2fe05c900c3f64c8907462f43a0e71"
+    }
+  ],
+  "outputs": [
+    "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+  ],
+  "source_output_mapping": [
+    {
+      "source": "/content/week3_project/data/raw/jpa_scholarships.pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+    }
+  ],
+  "inspection": {
+    "source": "jpa_scholarships.pdf",
+    "characters": 28914,
+    "pages": 22
+  },
+  "validation": {
+    "output_count": 1,
+    "output_sha256": [
+      "b13c28d78ba7bb3b442811b0d50ce0abf8454582d8b0a11cc7d4249f83608712"
+    ],
+    "output_bytes": [
+      35741
+    ]
+  },
+  "source_version": "2026 Intake (Scraped Nov 2026)",
+  "access_rights": "Public JPA Portal Data"
+}
